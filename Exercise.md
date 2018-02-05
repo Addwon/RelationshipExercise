@@ -132,8 +132,8 @@ public class MainController {
         }
 
         Person A = new Person();
-        A.setFirstname("Afua");
-        A.setLastname("Ankomah");
+        A.setFirstname("Jane");
+        A.setLastname("Doe");
 
         A.addCountry(countryRepo.findByCountryname("Ghana"));
 
